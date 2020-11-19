@@ -8,10 +8,10 @@
     - [0. - Installazione](#0---installazione)
     - [1. - Finestra processing](#1---finestra-processing)
     - [2. - Opzioni](#2---opzioni)
-    - [3. CSS incluso: Standard.css](#3-css-incluso-standardcss)
-- [4. Css di esempio](#4-css-di-esempio)
-- [5. Videotutorial](#5-videotutorial)
-- [6. Ringraziamenti](#6-ringraziamenti)
+    - [3. - CSS incluso: Standard.css](#3---css-incluso-standardcss)
+  - [4. - Css di esempio](#4---css-di-esempio)
+  - [5. - Videotutorial](#5---videotutorial)
+  - [6. - Ringraziamenti](#6---ringraziamenti)
 
 <!-- /TOC -->
 
@@ -69,7 +69,7 @@ Con i file temporanei, se i campi contengono percorsi relativi, l'html prodotto 
 
 ↑[torna su](#html-Generator)↑
 
-### 3. CSS incluso: Standard.css
+### 3. - CSS incluso: Standard.css
 
 Questa è la parte più interessante dato che permette una personalizzazione accurata della pagina html prodotta. Come anzidetto i tag principali utilizzati sono **'Table'**, **'b'** e **'div'**.
 
@@ -85,16 +85,16 @@ E' possibile impostare come unità di misura nei parametri **width** e **height*
 
 ↑[torna su](#html-Generator)↑
 
-# 4. Css di esempio
+## 4. - Css di esempio
 * [Standard.css](Standard.css)
 
 ↑[torna su](#html-Generator)↑
-# 5. Videotutorial
+## 5. - Videotutorial
 [![](https://img.youtube.com/vi/reoXJ7Pmk-I/0.jpg)](https://youtu.be/reoXJ7Pmk-I "HTML with CSS generator")
 
 ↑[torna su](#html-Generator)↑
 
-# 6. Ringraziamenti
+## 6. - Ringraziamenti
 [QGIS.org](https://www.qgis.org/it/site/) - [divtable.com](https://divtable.com/table-styler/) - [Totò Fiandaca](https://pigrecoinfinito.com/) - A. Cusano
 
 
