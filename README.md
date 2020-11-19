@@ -5,14 +5,19 @@
 
 - [HTML Generator](#html-generator)
   - [Qgis Plugin per processing](#qgis-plugin-per-processing)
+    - [0. - Installazione](#0---installazione)
     - [1. - Finestra processing](#1---finestra-processing)
     - [2. - Opzioni](#2---opzioni)
     - [3. CSS incluso: Standard.css](#3-css-incluso-standardcss)
-- [4. Dati di esempio](#4-dati-di-esempio)
+- [4. Css di esempio](#4-css-di-esempio)
 - [5. Videotutorial](#5-videotutorial)
 - [6. Ringraziamenti](#6-ringraziamenti)
 
 <!-- /TOC -->
+
+### 0. - Installazione
+Per installarlo basta che scarichiate lo zip del repo e da QGis fate installa plugin da zip. 
+Spero a breve sia disponibile nel repository ufficiale di QGis.
 
 ### 1. - Finestra processing
 Il plugin, una volta caricato, compare negli script di processing nella cartella HTML
@@ -80,7 +85,7 @@ E' possibile impostare come unità di misura nei parametri **width** e **height*
 
 ↑[torna su](#html-Generator)↑
 
-# 4. Dati di esempio
+# 4. Css di esempio
 * [Standard.css](Standard.css)
 
 ↑[torna su](#html-Generator)↑
