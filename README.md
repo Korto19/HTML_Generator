@@ -1,25 +1,25 @@
 #  HTML Generator
-## QGIS Plugin per processing
+## Qgis Plugin per processing
 
 <!-- TOC -->
 
 - [HTML Generator](#html-generator)
-  - [QGIS Plugin per processing](#qgis-plugin-per-processing)
-    - [0. - Installazione](#0---installazione)
-    - [1. - Finestra processing](#1---finestra-processing)
-    - [2. - Opzioni](#2---opzioni)
-    - [3. - CSS incluso: Standard.css](#3---css-incluso-standardcss)
-  - [4. - Css di esempio](#4---css-di-esempio)
-  - [5. - Videotutorial](#5---videotutorial)
-  - [6. - Ringraziamenti](#6---ringraziamenti)
+  - [Qgis Plugin per processing](#qgis-plugin-per-processing)
+    - [Installazione](#installazione)
+    - [Finestra processing](#finestra-processing)
+    - [Opzioni](#opzioni)
+    - [CSS incluso: Standard.css](#css-incluso-standardcss)
+      - [Css di esempio](#css-di-esempio)
+    - [Videotutorial](#videotutorial)
+    - [Ringraziamenti](#ringraziamenti)
 
 <!-- /TOC -->
 
-### 0. - Installazione
-Per installarlo basta che scarichiate lo zip del repo e da QGIS fate installa plugin da zip. 
-Spero a breve sia disponibile nel repository ufficiale di QGIS.
+### Installazione
+Per installarlo basta che scarichiate lo zip del repo e da QGis fate installa plugin da zip. 
+Spero a breve sia disponibile nel repository ufficiale di QGis.
 
-### 1. - Finestra processing
+### Finestra processing
 Il plugin, una volta caricato, compare negli script di processing nella cartella HTML
 
 ![uno](images/processing.png)
@@ -58,18 +58,18 @@ Per default il percorso di progetto viene considerato per primo, in seconda scel
 _NOTA BENE: 
 Con i file temporanei, se i campi contengono percorsi relativi, l'html prodotto non avrà le immagini correttamente visualizzate._
 
-↑[torna su](#html-Generator)↑
+↑[torna su](#html-generator)↑
 
-### 2. - Opzioni
+### Opzioni
 
 4. link assoluti / relativi;
 5. Espressione filtro: un campo tra quelli disponibili per produrre un multipagina o un filtro componibile nativo di QGIS;
 6. Titolo: una qualsiasi combinazione alfanumerica nella casella di testo, senza apici, il sistema la mette in rosso, ma funziona perfettamente; altrimenti una qualsiasi composizione entro il solito calcolatore, ovviamente si tratta di una scritta non dinamica;
 7. Icona o immagine: una qualsiasi immagine tra quelle compatibili:
 
-↑[torna su](#html-Generator)↑
+↑[torna su](#html-generator)↑
 
-### 3. - CSS incluso: Standard.css
+### CSS incluso: Standard.css
 
 Questa è la parte più interessante dato che permette una personalizzazione accurata della pagina html prodotta. Come anzidetto i tag principali utilizzati sono **'Table'**, **'b'** e **'div'**.
 
@@ -83,19 +83,21 @@ Il file fornito **Standard.css** E' commentato in maniera da poter intervenire s
 
 E' possibile impostare come unità di misura nei parametri **width** e **height** in mm cosa che consente impaginazioni precise.
 
-↑[torna su](#html-Generator)↑
+↑[torna su](#html-generator)↑
 
-## 4. - Css di esempio
+#### Css di esempio
+
 * [Standard.css](Standard.css)
 
-↑[torna su](#html-Generator)↑
-## 5. - Videotutorial
+↑[torna su](#html-generator)↑
+
+### Videotutorial
 [![](https://img.youtube.com/vi/reoXJ7Pmk-I/0.jpg)](https://youtu.be/reoXJ7Pmk-I "HTML with CSS generator")
 
-↑[torna su](#html-Generator)↑
+↑[torna su](#html-generator)↑
 
-## 6. - Ringraziamenti
+### Ringraziamenti
 [QGIS.org](https://www.qgis.org/it/site/) - [divtable.com](https://divtable.com/table-styler/) - [Totò Fiandaca](https://pigrecoinfinito.com/) - A. Cusano
 
 
-↑[torna su](#html-Generator)↑
+↑[torna su](#html-generator)↑
