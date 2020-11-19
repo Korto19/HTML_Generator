@@ -1,0 +1,135 @@
+﻿/* GF 15.11.2020 versione 3 */
+/* qualsiasi proprietà dei singoli elementi è da qui personalizzabile */
+/* quanto presente non è esaustivo di tutte le proprietà possibili    */
+
+/* proprietà titolo */
+b{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: red;
+}
+/* proprietà titolo tabella */
+caption {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: red;
+}
+
+/* proprietà div contenente logo/icona */
+div .links {
+	font-size: 19px;
+}
+/* proprietà immagini */
+img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 3px;
+  width: auto;
+  height: 10%;
+  background: #FFFFFF;
+}
+/* proprietà immagine/icona */
+#logoimg {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 3px;
+  width: auto;
+  height: 5%;
+  background: #FFFFFF;  
+  /* transform: scale(1.5);
+  background: #000000;*/
+}
+/* beta zoom ma solo se html in browser */
+.zoom {
+  padding: 3px;
+  background-color: white;
+  transition: transform .2s; /* Animation */
+  width: auto;
+  height: 10%;
+  margin: 0 auto;
+}
+/* beta zoom puntatore sull'immagine ma solo se html in browser */
+.zoom:hover {
+  transform: scale(4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* proprietà generali tabella */
+table.Table {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: 2px solid #4F7849;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+/* proprietà dati td e header th*/
+table.Table td, table.Table th {
+  border: 2px solid #4F7849;
+  padding: 3px 2px;
+}
+/* proprietà dati corpo tabella */
+table.Table tbody td {
+  border: 2px solid #4F7849;
+  font-size: 19px;
+  font-weight: bold;
+  color: #4F7849;
+}
+/* proprietà riga */
+table.Table tr:nth-child(even) {
+  background: #CEE0CC;
+}
+/* proprietà piè di pagina */
+table.Table tfoot, table.Table thdr {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  background: #4F7849;
+  background: -moz-linear-gradient(top, #CEE0CC 0%,#CEE0CC 66%,#CEE0CC 100%);
+  background: -webkit-linear-gradient(top,#CEE0CC 0%, #CEE0CC 66%, #CEE0CC 100%);
+  background: linear-gradient(to bottom, #CEE0CC 0%,#CEE0CC66%, #CEE0CC 100%);
+  border-top: 2px solid #444444;
+}
+/* proprietà dati piè di pagina */
+table.Table tfoot td{
+  font-size: 13px;
+}
+/* proprietà link in piè di pagina */
+table.Table tfoot .links{
+  text-align: center;
+}
+/* proprietà contenuti links piè di pagina */
+table.Table tfoot .links a{
+  display: inline-block;
+  background: #EEEEEE;
+  color: #000000;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+/* proprietà links ripetuti in intestazione */
+#h {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  background: #4F7849;
+  background: -moz-linear-gradient(top, #CEE0CC 0%,#CEE0CC 66%,#CEE0CC 100%);
+  background: -webkit-linear-gradient(top,#CEE0CC 0%, #CEE0CC 66%, #CEE0CC 100%);
+  background: linear-gradient(to bottom, #CEE0CC 0%,#CEE0CC66%, #CEE0CC 100%);
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
+}
+#h td{
+  font-size: 13px;
+}
+#h .links{
+  text-align: center;
+}
+#h .links a{
+  display: inline-block;
+  background: #EEEEEE;
+  color: #000000;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
