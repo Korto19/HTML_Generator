@@ -33,7 +33,7 @@ __revision__ = '$Format:%H$'
 from qgis.core import QgsProcessingProvider
 from .HTML_Generator_algorithm import HTML_GeneratorAlgorithm
 
-#icona in processing
+#icona gruppo in processing
 import os
 import inspect
 from qgis.PyQt.QtGui import QIcon
@@ -67,7 +67,7 @@ class HTML_GeneratorProvider(QgsProcessingProvider):
         string should be a unique, short, character only string, eg "qgis" or
         "gdal". This string should not be localised.
         """
-        return 'HTML'
+        return 'Korto19'
 
     def name(self):
         """
@@ -76,11 +76,12 @@ class HTML_GeneratorProvider(QgsProcessingProvider):
 
         This string should be short (e.g. "Lastools") and localised.
         """
-        return self.tr('HTML')
+        return self.tr('Korto19')
 
+        #icona del gruppo in processing
     def icon(self):
         cmd_folder = os.path.split(inspect.getfile(inspect.currentframe()))[0]
-        icon = QIcon(os.path.join(os.path.join(cmd_folder, 'icon.png')))
+        icon = QIcon(os.path.join(os.path.join(cmd_folder, 'Korto19.png')))
         return icon
 
     def longName(self):

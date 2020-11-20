@@ -51,7 +51,7 @@ from pathlib import Path
 #senza questo non puoi vedere il progetto
 from  qgis.core  import  QgsProject
 
-#questo per l'icona in processing
+#questo per l'icona dell'algoritmo di processing
 import os
 import inspect
 from qgis.PyQt.QtGui import QIcon
@@ -77,6 +77,7 @@ class HTML_GeneratorAlgorithm(QgsProcessingAlgorithm):
         """
         return QCoreApplication.translate('Processing', string)
 		
+		#icona dell'algoritmo di processing
     def icon(self):
         cmd_folder = os.path.split(inspect.getfile(inspect.currentframe()))[0]
         icon = QIcon(os.path.join(os.path.join(cmd_folder, 'icon.png')))
