@@ -9,7 +9,7 @@
                               -------------------
         begin                : 2020-11-18
         copyright            : (C) 2020 by Giulio
-        email                : g@g.com
+        email                : giulio.fattori@tin.it
  ***************************************************************************/
 
 /***************************************************************************
@@ -24,7 +24,7 @@
 
 __author__ = 'Giulio Fattori'
 __date__ = '2020-11-18'
-__copyright__ = '(C) 2020 by GF'
+__copyright__ = '(C) 2020 by Korto19'
 
 # This will get replaced with a git SHA1 when you do a git archive
 
@@ -94,7 +94,7 @@ class HTML_GeneratorAlgorithm(QgsProcessingAlgorithm):
         lowercase alphanumeric characters only and no spaces or other
         formatting characters.
         """
-        return 'Html Generator v4.00'
+        return 'Html Generator'
 
     def displayName(self):
         """

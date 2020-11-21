@@ -9,7 +9,7 @@
                               -------------------
         begin                : 2020-11-18
         copyright            : (C) 2020 by Giulio
-        email                : g@g.com
+        email                : giulio.fattori@tin.it
  ***************************************************************************/
 
 /***************************************************************************
@@ -24,7 +24,7 @@
 
 __author__ = 'Giulio Fattori'
 __date__ = '2020-11-18'
-__copyright__ = '(C) 2020 by GF'
+__copyright__ = '(C) 2020 by Korto19'
 
 # This will get replaced with a git SHA1 when you do a git archive
 
@@ -33,7 +33,7 @@ __revision__ = '$Format:%H$'
 from qgis.core import QgsProcessingProvider
 from .HTML_Generator_algorithm import HTML_GeneratorAlgorithm
 
-#icona gruppo in processing
+#icona in processing (livello zero)
 import os
 import inspect
 from qgis.PyQt.QtGui import QIcon
@@ -67,7 +67,7 @@ class HTML_GeneratorProvider(QgsProcessingProvider):
         string should be a unique, short, character only string, eg "qgis" or
         "gdal". This string should not be localised.
         """
-        return 'Korto19'
+        return 'HTML'
 
     def name(self):
         """
@@ -76,7 +76,7 @@ class HTML_GeneratorProvider(QgsProcessingProvider):
 
         This string should be short (e.g. "Lastools") and localised.
         """
-        return self.tr('Korto19')
+        return self.tr('HTML')
 
         #icona del gruppo in processing
     def icon(self):

@@ -8,7 +8,7 @@
                               -------------------
         begin                : 2020-11-18
         copyright            : (C) 2020 by Giulio
-        email                : g@g.com
+        email                : giulio.fattori@tin.it
  ***************************************************************************/
 
 /***************************************************************************
@@ -24,7 +24,7 @@
 
 __author__ = 'Giulio Fattori'
 __date__ = '2020-11-18'
-__copyright__ = '(C) 2020 by GF'
+__copyright__ = '(C) 2020 by Korto19'
 
 
 # noinspection PyPep8Naming
