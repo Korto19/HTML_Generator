@@ -1,10 +1,10 @@
 #  HTML Generator
-## Qgis Plugin per processing
+## QGIS Plugin per processing
 
 <!-- TOC -->
 
 - [HTML Generator](#html-generator)
-  - [Qgis Plugin per processing](#qgis-plugin-per-processing)
+  - [QGIS Plugin per processing](#qgis-plugin-per-processing)
     - [Installazione](#installazione)
     - [Finestra processing](#finestra-processing)
     - [Opzioni](#opzioni)
@@ -16,8 +16,8 @@
 <!-- /TOC -->
 
 ### Installazione
-Per installarlo basta che scarichiate lo zip del repo e da QGis fate installa plugin da zip. 
-Spero a breve sia disponibile nel repository ufficiale di QGis.
+Per installarlo basta che scarichiate lo zip del repo e da QGIS fate installa plugin da zip. 
+Spero a breve sia disponibile nel repository ufficiale di QGIS.
 
 ### Finestra processing
 Il plugin, una volta caricato, compare negli script di processing nella cartella HTML
