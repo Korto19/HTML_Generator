@@ -5,12 +5,14 @@
 [general]
 name=HTML Generator
 qgisMinimumVersion=3.0
-description=HTML single or multi page generator
+description=HTML pages generator - Genera pagine HTML
 version=1.0
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
-about=Prende i dati da un vettore e produce una o più tabelle HTML personalizzabili con CSS
+about=Produces an HTML page from a layer or a table, optionally also multipage by selecting only the field in the filter
+	
+    Produce una pagina HTML da un layer o una tabella, opzionalmente anche multipagina selezionando solo il campo nel filtro
 
 tracker=https://github.com/Korto19/HTML_Generator/issues
 repository=https://github.com/Korto19/HTML_Generator
@@ -25,7 +27,7 @@ hasProcessingProvider=yes
 # Tags are comma separated with spaces allowed
 tags=python, html, css
 
-homepage=https://github.com/Korto19
+homepage=https://github.com/Korto19/HTML_Generator#html-generator
 category=Processing, script
 icon=icon.png
 # experimental flag
