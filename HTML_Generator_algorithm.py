@@ -126,8 +126,7 @@ class HTML_GeneratorAlgorithm(QgsProcessingAlgorithm):
         should provide a basic description about what the algorithm does and the
         parameters and outputs associated with it..
         """
-        return self.tr("<mark style='color:black; font-size: 8px'><strong>Version 1.00 18.11.2020</strong></mark>\n\
-        Produce uno o più file html basati su un CSS utilizzabili in una cornice HTML del composer\n\
+        return self.tr("Produce uno o più file html basati su un CSS utilizzabili in una cornice HTML del composer\n\
         <mark style='color:blue'><strong>OPZIONI</strong></mark>\n\
         <i>- Filtro sui campi\n\
         - Fogli multipli in funzione di un campo selezionato nel filtro con possibilità di intestazione e piè pagina interattivi\n\
