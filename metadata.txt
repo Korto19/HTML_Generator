@@ -6,7 +6,7 @@
 name=HTML Generator
 qgisMinimumVersion=3.0
 description=HTML pages generator - Genera pagine HTML
-version=1.1
+version=1.2
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
